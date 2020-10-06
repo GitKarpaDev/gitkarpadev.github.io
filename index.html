@@ -83,13 +83,13 @@
         }
 
         .waves{
-            width: 50px;
-            height: 50px;
+            width: 0px;
+            height: 0px;
             display: flex;
             position: absolute;
             justify-content: center;
             align-content: center;
-            transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3s all;
+            transition: 4s all ease-in-out;
             z-index: -1;
         }
         .waves:hover, header:hover .waves{
@@ -98,14 +98,14 @@
         }
 
         .waves .wave{
-            border: 2px solid rgb(193, 230, 235);
+            border: 2px solid rgba(255, 255, 255, 0);
             flex: 1;
             display: flex;
             justify-content: center;
             align-content: center;
             border-radius: 300px;
             margin: 0;
-            transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3s all;
+            transition: cubic-bezier(0.075, 0.82, 0.165, 1) 4s all;
             padding: 0;
         }
         .waves:hover .wave, header:hover .waves .wave{
